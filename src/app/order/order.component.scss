@@ -1,0 +1,54 @@
+.container {
+    color: white;
+}
+.intro-section {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.product-header, .form-label {
+    color: white;
+}
+.form-control {
+    border: 3px solid darkmagenta;
+}
+.form-control:focus {
+    border-color: white;
+}
+table {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-collapse: separate;
+    border: 1px solid white;
+    border-spacing: 0;
+    color: white;   
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.product-name {
+    color: white;
+    margin-right: 10px;    
+    text-align: left;
+}
+.btn-gradient {
+    background: linear-gradient(to right, rgb(225, 64, 180), rgb(187, 30, 223));
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+}

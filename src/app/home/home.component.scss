@@ -1,0 +1,76 @@
+.intro-section {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.product-category {
+    width: 200px;
+}
+.search-input {
+    width: 300px;
+    background-color: rgb(179, 91, 193);
+    margin-right: 10px;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+.form-control {
+    background-color: transparent;
+    color: white;
+}
+.form-control option {
+    background-color: transparent;
+    color: black;
+}
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+.form-control::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+.product-item {
+    background-color: rgb(179, 91, 193);
+    border: 1px solid rgb(244, 171, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product-name {
+    color: rgb(57, 0, 71);
+}
+.product-description {
+    color: white;
+}
+.product-warranty {
+    color: white;
+}
+.product-price {
+    color: white;
+}
+.product-rating {
+    color: rgb(255, 247, 0);
+    margin-top: 10px;
+}
+.product-actions {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 3%;
+}
