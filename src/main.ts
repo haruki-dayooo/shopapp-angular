@@ -7,5 +7,5 @@ import { LoginComponent } from './app/login/login.component';
 import { RegisterComponent } from './app/register/register.component';
 import { DetailProductComponent } from './app/detail-product/detail-product.component';
 
-bootstrapApplication(DetailProductComponent, appConfig)
+bootstrapApplication(RegisterComponent, appConfig)
   .catch((err) => console.error(err));
